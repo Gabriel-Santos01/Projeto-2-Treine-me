@@ -1,3 +1,7 @@
+:root {
+  font-size: 63%;
+}
+
 body {
   margin: 0;
 
@@ -13,9 +17,9 @@ body {
 }
 
 .page {
-  max-width: 1000px;
+  max-width: 100rem;
   margin: 0 auto;
-  padding-top: 65px;
+  padding-top: 6.5rem;
 }
 
 nav {
@@ -23,7 +27,7 @@ nav {
   justify-content: space-between;
   align-items: center;
 
-  margin-bottom: 15px;
+  margin-bottom: 5.5rem;
 }
 
 ul {
@@ -36,6 +40,12 @@ ul {
 a {
   color: #1f1534;
   text-decoration: none;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 ul {
@@ -57,14 +67,13 @@ ul {
 }
 
 h1 {
-  font-family: 'Mulish', sans-serif;
-  font-size: 49px;
-  line-height: 56px;
+  font-size: 4.9rem;
+  line-height: 5.6rem;
   color: #1f1534;
 
   font-weight: normal;
 
-  width: 490px;
+  width: 49rem;
 }
 
 h1 span {
@@ -73,17 +82,18 @@ h1 span {
 }
 
 section p {
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
   color: #7d7987;
 
-  margin: 40px 0;
+  margin: 4rem 0;
+  width: 44rem;
 }
 
 button {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
-  line-height: 21px;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
   text-transform: uppercase;
 
   color: white;
@@ -107,12 +117,12 @@ button:hover {
 }
 
 footer {
-  font-size: 14px;
-  line-height: 28px;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
 
   text-align: center;
 
-  margin-top: 80px;
+  margin-top: 8rem;
 }
 
 footer a {
