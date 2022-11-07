@@ -3,7 +3,7 @@
 > Web construída no programa Explorer da Rocketseat 
 
 
-![preview](./.github/preview.jpeg)
+![preview](./.github/preview.jpg)
 
 
 ## 💻 Tecnologias
